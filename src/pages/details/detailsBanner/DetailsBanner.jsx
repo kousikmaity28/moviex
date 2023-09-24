@@ -10,7 +10,7 @@ import PosterFallback from "../../../assets/no-poster.png";
 import VideoPopup from "../../../components/videoPopup/VideoPopup";
 import Img from "../../../components/lazyloadimage/img";
 import ContentWrapper from "../../../components/contentwrapper/ContentWrapper";
-import { PlayIcon } from "../PlayBtn";
+import { PlayIcon } from "../Playbtn";
 
 const DetailsBanner = ({ video, crew }) => {
     const [show, setShow] = useState(false);
